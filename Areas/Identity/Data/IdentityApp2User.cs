@@ -13,5 +13,7 @@ namespace IdentityApp2.Areas.Identity.Data
         public string Name { get; set; }
         [PersonalData]
         public DateTime DOB { get; set; }
+
+        public bool IsAdmin { get; set; }
     }
 }

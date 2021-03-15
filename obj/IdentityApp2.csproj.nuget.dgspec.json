@@ -1,31 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Asp Net Core\\IdentityApp2\\IdentityApp2.csproj": {}
+    "E:\\Asp.Net Core Projects\\IdentityApp2\\IdentityApp2.csproj": {}
   },
   "projects": {
-    "E:\\Asp Net Core\\IdentityApp2\\IdentityApp2.csproj": {
+    "E:\\Asp.Net Core Projects\\IdentityApp2\\IdentityApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Asp Net Core\\IdentityApp2\\IdentityApp2.csproj",
+        "projectUniqueName": "E:\\Asp.Net Core Projects\\IdentityApp2\\IdentityApp2.csproj",
         "projectName": "IdentityApp2",
-        "projectPath": "E:\\Asp Net Core\\IdentityApp2\\IdentityApp2.csproj",
-        "packagesPath": "C:\\Users\\mdsaj\\.nuget\\packages\\",
-        "outputPath": "E:\\Asp Net Core\\IdentityApp2\\obj\\",
+        "projectPath": "E:\\Asp.Net Core Projects\\IdentityApp2\\IdentityApp2.csproj",
+        "packagesPath": "C:\\Users\\osl_sajjad\\.nuget\\packages\\",
+        "outputPath": "E:\\Asp.Net Core Projects\\IdentityApp2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mdsaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\osl_sajjad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net5.0": {
@@ -86,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

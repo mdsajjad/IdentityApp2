@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MyApplication.Data;
 using IdentityApp2.Areas.Identity.Data;
+using IdentityApp2.Areas.Identity;
 
 namespace IdentityApp2
 {
@@ -33,9 +34,11 @@ namespace IdentityApp2
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityApp2User>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddIdentity<IdentityApp2User, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+            services.AddScoped<IUserClaimsPrincipalFactory<IdentityApp2User>, AdditionalUserClaimsPrincipalFactory>();
             services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
